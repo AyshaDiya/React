@@ -7,6 +7,10 @@ import Counter from './components/Counter';
 import Signup from './components/Signup';
 import Useeffect from './components/Useeffect';
 import {Route, Routes } from 'react-router-dom';
+import Mapping from './components/Mapping';
+import ListName from './components/ListName';
+import Api from './components/Api';
+import GridGet from './components/GridGet';
 
 function App() {
   return (
@@ -15,10 +19,15 @@ function App() {
       {/* <Useeffect/> */}
       <Routes>
         <Route path='/' element={<Login/>}/>
-        <Route path='/c' element={<counter/>}/>
+        <Route path='/C' element={<counter/>}/>
+        <Route path='/Sign' element={<Signup/>}/>
+        <Route path='/t' element={<Mapping/>}/>
+        <Route path='/I' element={<ListName/>}/>
+        <Route path ='/A'element={<Api/>}/>
+        <Route path='/b' element={<GridGet/>}/>
       </Routes>
 
-     
+      
     </div>
   );
 }

@@ -18,7 +18,16 @@ const Navbar = () => {
                 <Button>
                     <Link to ='/' style={{color:'white'}}>Signup</Link>
                 </Button>
-                    
+                <Button>
+                    <Link to ='/t' style={{color:'white'}}>Mapping</Link>
+                </Button>
+                <Button>
+                    <Link to ='/A' style={{color:'white'}}>Api</Link>
+                </Button>
+                <Button>
+                    <Link to ='/b' style={{color:'white'}}>GridGet</Link>
+                </Button>
+                
                 
                 
             </Toolbar>
